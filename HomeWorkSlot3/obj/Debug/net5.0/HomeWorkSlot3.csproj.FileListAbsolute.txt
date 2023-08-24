@@ -1,0 +1,16 @@
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\bin\Debug\net5.0\HomeWorkSlot3.exe
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\bin\Debug\net5.0\HomeWorkSlot3.deps.json
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\bin\Debug\net5.0\HomeWorkSlot3.runtimeconfig.json
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\bin\Debug\net5.0\HomeWorkSlot3.runtimeconfig.dev.json
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\bin\Debug\net5.0\HomeWorkSlot3.dll
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\bin\Debug\net5.0\ref\HomeWorkSlot3.dll
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\bin\Debug\net5.0\HomeWorkSlot3.pdb
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\obj\Debug\net5.0\HomeWorkSlot3.csproj.AssemblyReference.cache
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\obj\Debug\net5.0\HomeWorkSlot3.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\obj\Debug\net5.0\HomeWorkSlot3.AssemblyInfoInputs.cache
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\obj\Debug\net5.0\HomeWorkSlot3.AssemblyInfo.cs
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\obj\Debug\net5.0\HomeWorkSlot3.csproj.CoreCompileInputs.cache
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\obj\Debug\net5.0\HomeWorkSlot3.dll
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\obj\Debug\net5.0\ref\HomeWorkSlot3.dll
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\obj\Debug\net5.0\HomeWorkSlot3.pdb
+D:\PRN211-DemoCode\SE171957-Solution\HomeWorkSlot3\obj\Debug\net5.0\HomeWorkSlot3.genruntimeconfig.cache

@@ -1,0 +1,5 @@
+C|1|Course 1|01/01/2022 00:00:00
+C|2|Course 2|01/02/2022 00:00:00
+O|3|OnlineCourse 3|04/05/2022 00:00:00|meet/.urks
+O|4|Nhin cai gi|12/05/2023 00:00:00|meet/.url abs-sdw-urd
+C|5|Vy cute lam|12/12/2023 00:00:00

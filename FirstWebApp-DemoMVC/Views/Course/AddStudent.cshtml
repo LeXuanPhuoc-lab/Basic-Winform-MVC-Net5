@@ -1,0 +1,44 @@
+﻿@using FirstWebApp_DemoMVC.Models
+@model List<Student>
+@Html.Partial("Header")
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["title"]</title>
+</head>
+<body>
+    <form action="/Course/DoAddStudent" method="post">
+        @foreach (Student s in Model)
+        {
+            bool isExist = false;
+            if(ViewBag.StudentInCourse != null)
+            {
+                foreach (Student st in ViewBag.StudentInCourse)
+                {
+                    if (st.StudentId == s.StudentId)
+                    {
+                        isExist = true;
+                    }
+                }
+            }
+            if (isExist)
+            {
+                <div>
+                    <label for="students">Id: @s.StudentId, Name: @s.FirstName @s.MidName @s.LastName</label>
+                    <small style="color: red">Already In Course</small>
+                </div>
+            }
+            else
+            {
+                <div>
+                    <label for="students">Id: @s.StudentId, Name: @s.FirstName @s.MidName @s.LastName</label>
+                    <input type="checkbox" name="StudentsId" value="@s.StudentId" />
+                </div>
+            }
+        }
+        <input type="hidden" name="CourseId" value="@ViewBag.CourseId" />
+        <input type="submit" value="Add Student" />
+    </form>
+</body>
+</html>

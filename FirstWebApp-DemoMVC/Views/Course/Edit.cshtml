@@ -1,0 +1,50 @@
+﻿
+@using FirstWebApp_DemoMVC.Models
+@model Course
+@Html.Partial("Header")
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["title"]</title>
+</head>
+<body>
+    <h2>Edit Course @Model.CourseCode</h2>
+    <form action="/Course/DoEdit">
+        <div>
+            <input type="hidden" name="NewCourse.CourseId" value="@Model.CourseId" />
+        </div>
+        <div>
+            <label for="CourseCode">Course Code</label>
+            <input type="text" name="NewCourse.CourseCode" id="CourseCode" value="@Model.CourseCode" />
+        </div>
+        <div>
+            <label for="CourseDescription">Course Description</label>
+            <input type="text" name="NewCourse.CourseDescription" id="CourseDescription" value="@Model.CourseDescription" />
+        </div>
+        <div>
+            <label for="Subject">Subjects</label>
+            <select name="NewCourse.SubjectId">
+                @foreach(Subject s in ViewBag.Subjects)
+            {
+                <option value="@s.SubjectId" @(s.SubjectId == Model.SubjectId ?"selected":"") >@s.SubjectName</option>
+            }
+            </select>
+        </div>
+        <div>
+            <label for="Intructor">Instructors</label>
+            <select name="NewCourse.InstructorId">
+                @foreach (Instructor i in ViewBag.Instructors)
+                {
+                    <option value="@i.InstructorId" @(i.InstructorId == Model.InstructorId ?"selected":"" )>
+                        @i.FirstName @i.MidName @i.LastName
+                    </option>
+                }
+            </select>
+        </div>
+        <div>
+            <button type="submit">Save</button>
+        </div>
+    </form>
+</body>
+</html>

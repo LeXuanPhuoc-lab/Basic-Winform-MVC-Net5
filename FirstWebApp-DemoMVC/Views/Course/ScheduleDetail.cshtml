@@ -1,0 +1,63 @@
+﻿@using FirstWebApp_DemoMVC.Models
+@model List<RollCallBook>
+@Html.Partial("Header")
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>@ViewData["title"]</title>
+    </head>
+    <body>
+        @if(Model != null)
+            {
+                <table style="text-align: center;">
+                    <thead>
+                        <tr>
+                            <td>Id</td>
+                            <td>Roll#</td>
+                            <td>Full Name</td>
+                            <td>Present</td>
+                            <td>Action</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (RollCallBook rcb in Model)
+                        {
+                            <form action="/Course/DoEditAttendence">
+                            <tr>
+                                <td>
+                                    <input type="hidden" name="StudentId" value="@rcb.StudentId" />
+                                    @rcb.Student.StudentId
+                                </td>
+                                <td>@rcb.Student.Roll</td>
+                                <td>@rcb.Student.FirstName @rcb.Student.MidName @rcb.Student.LastName</td>
+                                <td>
+                                    @if (!Convert.ToBoolean(rcb.IsAbsence))
+                                    {
+                                        <label for="present">Present</label>
+                                        <input type="radio" name="isAbsence" id="present" value="fasle" checked />
+                                        <label for="absent">Absent</label>
+                                        <input type="radio" name="isAbsence" id="absent" value="true" />
+                                    }
+                                    else
+                                    {
+                                        <label for="present">Present</label>
+                                        <input type="radio" name="isAbsence" id="absent" value="false" />
+                                        <label for="absent">Absent</label>
+                                        <input type="radio" name="isAbsence" id="present" value="true" checked />
+                                    }
+                                </td>
+                                <td>
+                                    <input type="hidden" name="RollCallBookId" value="@rcb.RollCallBookId" />
+                                    <input type="hidden" name="TeachingScheduleId"  value="@rcb.TeachingScheduleId" />
+                                    <input type="hidden" name="Comment"  value="@rcb.Comment" />
+                                    <button type="submit">Save</button>
+                                </td>
+                            </tr>
+                            </form>
+                        }
+                    </tbody>
+                </table>
+            }
+    </body>
+</html>

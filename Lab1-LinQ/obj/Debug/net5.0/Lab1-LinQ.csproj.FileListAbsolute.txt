@@ -1,0 +1,16 @@
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\bin\Debug\net5.0\Lab1-LinQ.exe
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\bin\Debug\net5.0\Lab1-LinQ.deps.json
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\bin\Debug\net5.0\Lab1-LinQ.runtimeconfig.json
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\bin\Debug\net5.0\Lab1-LinQ.runtimeconfig.dev.json
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\bin\Debug\net5.0\Lab1-LinQ.dll
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\bin\Debug\net5.0\ref\Lab1-LinQ.dll
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\bin\Debug\net5.0\Lab1-LinQ.pdb
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\obj\Debug\net5.0\Lab1-LinQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\obj\Debug\net5.0\Lab1-LinQ.AssemblyInfoInputs.cache
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\obj\Debug\net5.0\Lab1-LinQ.AssemblyInfo.cs
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\obj\Debug\net5.0\Lab1-LinQ.csproj.CoreCompileInputs.cache
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\obj\Debug\net5.0\Lab1-LinQ.dll
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\obj\Debug\net5.0\ref\Lab1-LinQ.dll
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\obj\Debug\net5.0\Lab1-LinQ.pdb
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\obj\Debug\net5.0\Lab1-LinQ.genruntimeconfig.cache
+D:\PRN211-DemoCode\SE171957-Solution\Lab1-LinQ\obj\Debug\net5.0\Lab1-LinQ.csproj.AssemblyReference.cache

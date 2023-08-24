@@ -1,0 +1,16 @@
+D:\PRN211-DemoCode\SE171957-Solution\Library\bin\Debug\net5.0\Library.exe
+D:\PRN211-DemoCode\SE171957-Solution\Library\bin\Debug\net5.0\Library.deps.json
+D:\PRN211-DemoCode\SE171957-Solution\Library\bin\Debug\net5.0\Library.runtimeconfig.json
+D:\PRN211-DemoCode\SE171957-Solution\Library\bin\Debug\net5.0\Library.runtimeconfig.dev.json
+D:\PRN211-DemoCode\SE171957-Solution\Library\bin\Debug\net5.0\Library.dll
+D:\PRN211-DemoCode\SE171957-Solution\Library\bin\Debug\net5.0\ref\Library.dll
+D:\PRN211-DemoCode\SE171957-Solution\Library\bin\Debug\net5.0\Library.pdb
+D:\PRN211-DemoCode\SE171957-Solution\Library\obj\Debug\net5.0\Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN211-DemoCode\SE171957-Solution\Library\obj\Debug\net5.0\Library.AssemblyInfoInputs.cache
+D:\PRN211-DemoCode\SE171957-Solution\Library\obj\Debug\net5.0\Library.AssemblyInfo.cs
+D:\PRN211-DemoCode\SE171957-Solution\Library\obj\Debug\net5.0\Library.csproj.CoreCompileInputs.cache
+D:\PRN211-DemoCode\SE171957-Solution\Library\obj\Debug\net5.0\Library.dll
+D:\PRN211-DemoCode\SE171957-Solution\Library\obj\Debug\net5.0\ref\Library.dll
+D:\PRN211-DemoCode\SE171957-Solution\Library\obj\Debug\net5.0\Library.pdb
+D:\PRN211-DemoCode\SE171957-Solution\Library\obj\Debug\net5.0\Library.genruntimeconfig.cache
+D:\PRN211-DemoCode\SE171957-Solution\Library\obj\Debug\net5.0\Library.csproj.AssemblyReference.cache

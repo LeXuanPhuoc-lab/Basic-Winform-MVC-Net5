@@ -1,0 +1,10 @@
+C:\Users\USER\source\repos\SE171957-WinForm-Solution\FirstWinFormApp\bin\Debug\FirstWinFormApp.exe.config
+C:\Users\USER\source\repos\SE171957-WinForm-Solution\FirstWinFormApp\bin\Debug\FirstWinFormApp.exe
+C:\Users\USER\source\repos\SE171957-WinForm-Solution\FirstWinFormApp\bin\Debug\FirstWinFormApp.pdb
+C:\Users\USER\source\repos\SE171957-WinForm-Solution\FirstWinFormApp\obj\Debug\FirstWinFormApp.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\SE171957-WinForm-Solution\FirstWinFormApp\obj\Debug\FirstWinFormApp.Form1.resources
+C:\Users\USER\source\repos\SE171957-WinForm-Solution\FirstWinFormApp\obj\Debug\FirstWinFormApp.Properties.Resources.resources
+C:\Users\USER\source\repos\SE171957-WinForm-Solution\FirstWinFormApp\obj\Debug\FirstWinFormApp.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\SE171957-WinForm-Solution\FirstWinFormApp\obj\Debug\FirstWinFormApp.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\SE171957-WinForm-Solution\FirstWinFormApp\obj\Debug\FirstWinFormApp.exe
+C:\Users\USER\source\repos\SE171957-WinForm-Solution\FirstWinFormApp\obj\Debug\FirstWinFormApp.pdb

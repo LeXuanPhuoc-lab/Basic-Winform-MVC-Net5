@@ -1,0 +1,16 @@
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\obj\Debug\net5.0\DemoLambdaExpression.csproj.AssemblyReference.cache
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\obj\Debug\net5.0\DemoLambdaExpression.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\obj\Debug\net5.0\DemoLambdaExpression.AssemblyInfoInputs.cache
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\obj\Debug\net5.0\DemoLambdaExpression.AssemblyInfo.cs
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\obj\Debug\net5.0\DemoLambdaExpression.csproj.CoreCompileInputs.cache
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\bin\Debug\net5.0\DemoLambdaExpression.exe
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\bin\Debug\net5.0\DemoLambdaExpression.deps.json
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\bin\Debug\net5.0\DemoLambdaExpression.runtimeconfig.json
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\bin\Debug\net5.0\DemoLambdaExpression.runtimeconfig.dev.json
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\bin\Debug\net5.0\DemoLambdaExpression.dll
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\bin\Debug\net5.0\ref\DemoLambdaExpression.dll
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\bin\Debug\net5.0\DemoLambdaExpression.pdb
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\obj\Debug\net5.0\DemoLambdaExpression.dll
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\obj\Debug\net5.0\ref\DemoLambdaExpression.dll
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\obj\Debug\net5.0\DemoLambdaExpression.pdb
+D:\PRN211-DemoCode\SE171957-Solution\DemoLambdaExpression\obj\Debug\net5.0\DemoLambdaExpression.genruntimeconfig.cache

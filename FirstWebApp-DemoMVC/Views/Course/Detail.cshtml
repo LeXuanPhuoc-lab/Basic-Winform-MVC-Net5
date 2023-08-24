@@ -1,0 +1,63 @@
+﻿@using FirstWebApp_DemoMVC.Models
+@model Course
+@Html.Partial("Header")
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["title"]</title>
+</head>
+<body>
+    @if (Model != null)
+    {
+        <h2> Detail of Course @Model.CourseCode in Subject @Model.Subject.SubjectName</h2>
+        <table style="text-align: center; border: 1px solid black;">
+            <thead>
+                <tr>
+                    <th>CourseId</th>
+                    <th>CourseCode</th>
+                    <th>CourseDescription</th>
+                    <th>SubjectName</th>
+                    <th>Instructor Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.CourseId</td>
+                    <td>@Model.CourseCode</td>
+                    <td>@Model.CourseDescription</td>
+                    <td>@Model.Subject.SubjectName</td>
+                    <td>@Model.Instructor.FirstName @Model.Instructor.MidName @Model.Instructor.LastName</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Course Schedules</h3>
+        @if(@ViewBag.CourseSchedules != null)
+        {
+        <table>
+            <thead>
+                <tr>
+                    <th>Teaching Date</th>
+                    <th>Slot</th>
+                    <th>RoomId</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (CourseSchedule cs in ViewBag.CourseSchedules)
+                {
+                    <tr>
+                        <td>@cs.TeachingDate</td>
+                        <td>@cs.Slot</td>
+                        <td>@cs.Room.RoomCode</td>
+                        <td>
+                            <a href="/Course/ScheduleDetail/@cs.TeachingScheduleId">Go Details</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        }
+    }
+</body>
+</html>

@@ -1,0 +1,6 @@
+1|Phuoc|2000|Manager
+2|Vy|2000|Manager
+3|John|1000|Tester
+4|Nidal|500|Other
+5|Aaron|1500|Developer
+6|Smith|1500|Developer

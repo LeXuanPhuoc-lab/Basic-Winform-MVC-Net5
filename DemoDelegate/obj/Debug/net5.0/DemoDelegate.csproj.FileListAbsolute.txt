@@ -1,0 +1,16 @@
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\bin\Debug\net5.0\DemoDelegate.exe
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\bin\Debug\net5.0\DemoDelegate.deps.json
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\bin\Debug\net5.0\DemoDelegate.runtimeconfig.json
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\bin\Debug\net5.0\DemoDelegate.runtimeconfig.dev.json
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\bin\Debug\net5.0\DemoDelegate.dll
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\bin\Debug\net5.0\ref\DemoDelegate.dll
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\bin\Debug\net5.0\DemoDelegate.pdb
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\obj\Debug\net5.0\DemoDelegate.csproj.AssemblyReference.cache
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\obj\Debug\net5.0\DemoDelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\obj\Debug\net5.0\DemoDelegate.AssemblyInfoInputs.cache
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\obj\Debug\net5.0\DemoDelegate.AssemblyInfo.cs
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\obj\Debug\net5.0\DemoDelegate.csproj.CoreCompileInputs.cache
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\obj\Debug\net5.0\DemoDelegate.dll
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\obj\Debug\net5.0\ref\DemoDelegate.dll
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\obj\Debug\net5.0\DemoDelegate.pdb
+D:\PRN211-DemoCode\SE171957-Solution\DemoDelegate\obj\Debug\net5.0\DemoDelegate.genruntimeconfig.cache

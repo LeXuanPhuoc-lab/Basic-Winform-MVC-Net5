@@ -1,0 +1,79 @@
+﻿@using DemoPagingAndCart.Models
+@model List<Product>
+@addTagHelper *, DemoPagingAndCart
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>@ViewData["title"]</title>
+        <style>
+            a {
+                text-decoration: none;
+                color: blue;
+            }
+            a:hover {
+                text-decoration: underline;
+                font-weight: bold;
+            }
+
+            .active{
+                color: red;
+            }
+
+           
+        </style>
+    </head>
+    <body>
+        <div>
+            <div style="width: 25%; float: left;">
+                <ul>
+                    <li><a href="/Product/List" class="@((int)ViewData["CurrentCategory"] == 0 ? "active":"")">All Products</a></li>
+                    @foreach(Category c in ViewBag.Categories)
+                    {
+                        <li>
+                    <a href="/Product/List/@c.CategoryId" 
+                               class="@((int)ViewData["CurrentCategory"]==c.CategoryId ?"active":"")">
+                            @c.Name
+                    </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div style="width: 75%; float: left;">
+                @if(Model.Count == 0)
+                {
+                    <p>Not Found Any Products</p>
+                }
+                else
+                {
+                    @foreach(Product p in Model)
+                    {
+                        <div>
+                            @p.ProductId - @p.Name - @p.Price
+                        </div>
+                    }
+                }
+            <div>
+                @*@if ((int)ViewData["TotalPage"] > 1)
+                {
+                    @for (int i = 1; i <= Convert.ToInt32(ViewData["TotalPage"]); ++i)
+                    {
+                    <a href='/Product/List/@ViewData["CurrentCategory"]/@i' class="@((int)ViewData["CurrentPage"] == i?"active":"")">
+                        @i
+                    </a>
+                    }
+                }*@
+            </div>
+                    <pager 
+                           total-page="(int)@ViewData["TotalPage"]"
+                           current-category="(int)@ViewData["CurrentCategory"]"
+                           current-page="(int)@ViewData["CurrentPage"]"
+                           url="/Product/List"
+                           active-class="active"
+                           >
+                    </pager>
+            </div>
+        </div>
+    </body>
+</html>
+

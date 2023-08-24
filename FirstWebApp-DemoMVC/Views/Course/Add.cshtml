@@ -1,0 +1,44 @@
+﻿@using FirstWebApp_DemoMVC.Models
+@*@model List<Subject>*@
+@Html.Partial("Header")
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["title"]</title>
+</head>
+<body>
+    <h2>Add Course</h2>
+    <form action="/Course/DoAdd">
+        <div>
+            Course Code
+            <input type="text" name="CourseCode" value="" />
+        </div>
+        <div>
+            Course Description
+            <input type="text" name="CourseDescription" value="" />
+        </div>
+        <div>
+            Subject Name
+            <select name="SubjectId">
+                @foreach (Subject s in @ViewBag.SubjectList)
+                {
+                    <option value="@s.SubjectId">@s.SubjectName</option>
+                }
+            </select>
+        </div>
+        <div>
+            Instructor Name
+            <select name="InstructorId">
+                @foreach (Instructor instr in ViewBag.InstructorList)
+                {
+                    <option value="@instr.InstructorId">@instr.FirstName @instr.MidName @instr.LastName</option>
+                }
+            </select>
+        </div>
+        <div>
+            <button type="submit">Save</button>
+        </div>
+    </form>
+</body>
+</html>
